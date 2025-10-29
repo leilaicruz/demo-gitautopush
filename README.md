@@ -1,48 +1,5 @@
 # This repo is to demo the gitautopush tool to Carpentry instructors 
 
-## Commands from Unix terminal to be transferred to a file
-
-### Prerequisites
-- Make a public github repository to send your notes to : 
-    - make one live in github (or have done one) and invite the participants as collaborators
-    - make the repo with a readme file 
-- Make a file text in the location of your local github repository to store the commands   
-    - Participants
-        - clone the repo and create a new branch : git checkout -b NAME_OF_YOUR_BRANCH
-    - the participants can clone or pull my changes, so they have the file text in their local repository
-- Install gitautopush in your computer : `pip install gitautopush`
-
-### Instructions
-
-#### Firs step to check the history is stored in real time
-1. Open one terminal 
-2. Open a second terminal where the history is redirected and put: `tail -n 0 -f ~/.bash_history`
-3. type commands in the first terminal and check if they appear in the second terminal in real time
-
-#### Second step to store the history in a file text in your local github repository and push it to the remote repository in real time
-
-1. Open one terminal (the main where you are going to type the commands of the lesson)
-2. Open a second terminal where the history is redirected and put:
-`tail -n 0 -f ~/.bash_history | tee -a "path to the file text you created in the local github repository"` 
-
-3. Establish the proper ssh keys to connect to your remote github repository
-
-4. Open a third terminal in the path of the repository to send the commands and
-    - Run gitautopush : `gitautopush .`
-
-
-
-## Commands from a jupyter notebook to be set to a github repository 
-
-### Prerequisites
-- Make a public github repository to send your notes to
-- Install gitautopush in your computer : `pip install gitautopush`
-
-
-### Instructions
-- Open a terminal in the path of your local github repository where is where you want to open your local jupyter notebook 
-- Establish the proper ssh keys to connect to your remote github repository (and make sure you have the most updated remote version of your repository in your local repository)
-- Run gitautopush : `gitautopush .`
 
 ## 🧰 Bash History Troubleshooting Guide
 
