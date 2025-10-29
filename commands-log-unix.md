@@ -9,3 +9,4 @@ git status
 pwd
 git status
 cd /b/Education/Carpentry/
+ls
