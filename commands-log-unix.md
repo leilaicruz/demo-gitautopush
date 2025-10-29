@@ -1,2 +1,5 @@
 
-## List of commands of the lesson
+## List of commands of the lessonpwd
+la
+ls
+pwd
