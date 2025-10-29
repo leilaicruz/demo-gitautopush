@@ -1,2 +1,4 @@
 
-## List of commands of the lesson
+## List of commands of the lessongit status
+pwd
+ls
