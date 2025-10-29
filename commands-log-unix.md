@@ -3,3 +3,5 @@
 ls
  nano X
 ls
+nano commands-log-unix.md 
+git status
