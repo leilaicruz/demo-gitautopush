@@ -5,3 +5,6 @@ ls
 pwd
 gitautopush . 
 git push --set-upstream origin leila 
+cd ~
+ls
+pwd
