@@ -3,3 +3,5 @@
 la
 ls
 pwd
+gitautopush . 
+git push --set-upstream origin leila 
